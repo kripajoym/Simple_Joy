@@ -17,7 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: HCLAppScan@2
+- task: Joy.ApplicationSecurity-VSTS.custom-build-release-task.HCLAppScan@1
   inputs:
     AppSecTestService: 'ProdJoy'
     applications: 'c77eb298-9b34-4aef-801f-d404a6960f43'
